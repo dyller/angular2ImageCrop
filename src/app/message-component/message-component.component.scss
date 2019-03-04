@@ -1,0 +1,53 @@
+.button1 {
+  background-color: #4CAF50;
+  margin: 4px 2px;
+  border-radius: 8px;
+  margin-right: 12px;
+  padding: 10px;
+  width: 80px;
+}
+
+.button2 {
+  background-color: darkblue;
+  margin: 4px 2px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 4px;
+  width: 80px;
+  color: whitesmoke;
+}
+
+.button3 {
+  margin: 4px 2px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 4px;
+  width: 200px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.anime {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
